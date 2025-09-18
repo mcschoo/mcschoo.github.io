@@ -125,12 +125,11 @@ body {
   from { opacity: 0; transform: translateY(20px); }
   to { opacity: 1; transform: translateY(0); }
 }
-
 /* ---------------------------
    Planet Explorer Section
 ----------------------------*/
 
-/* Landing Scroll Indicator */
+/* Scroll indicator */
 .scroll-down {
   margin-top: 2rem;
   font-size: 2rem;
@@ -142,8 +141,8 @@ body {
   50% { transform: translateY(10px); }
 }
 
-/* Planets Section */
-.planets {
+/* Planet Explorer */
+.planet-section {
   height: 100vh;
   background: #111;
   display: flex;
@@ -158,7 +157,7 @@ body {
   transition: transform 0.6s ease;
 }
 
-.planet {
+.planet-item {
   min-width: 300px;
   margin: 0 2rem;
   text-align: center;
@@ -167,12 +166,12 @@ body {
   transition: transform 0.4s, opacity 0.4s;
 }
 
-.planet.active {
+.planet-item.active {
   opacity: 1;
   transform: scale(1);
 }
 
-.planet img {
+.planet-item img {
   width: 200px;
   border-radius: 50%;
 }
