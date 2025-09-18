@@ -125,3 +125,95 @@ body {
   from { opacity: 0; transform: translateY(20px); }
   to { opacity: 1; transform: translateY(0); }
 }
+
+/* ---------------------------
+   Planet Explorer Section
+----------------------------*/
+
+/* Landing Scroll Indicator */
+.scroll-down {
+  margin-top: 2rem;
+  font-size: 2rem;
+  animation: bounce 2s infinite;
+  cursor: pointer;
+}
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(10px); }
+}
+
+/* Planets Section */
+.planets {
+  height: 100vh;
+  background: #111;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.planet-carousel {
+  display: flex;
+  align-items: center;
+  transition: transform 0.6s ease;
+}
+
+.planet {
+  min-width: 300px;
+  margin: 0 2rem;
+  text-align: center;
+  opacity: 0.5;
+  transform: scale(0.8);
+  transition: transform 0.4s, opacity 0.4s;
+}
+
+.planet.active {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.planet img {
+  width: 200px;
+  border-radius: 50%;
+}
+
+.view-more {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background: red;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.carousel-controls {
+  margin-top: 2rem;
+}
+
+.carousel-controls button {
+  padding: 0.5rem 1rem;
+  margin: 0 1rem;
+  cursor: pointer;
+}
+
+/* Mars Detail Page */
+.mars-page {
+  background: #000;
+}
+
+.mars-hero {
+  text-align: center;
+  padding: 3rem;
+}
+
+.mars-hero img {
+  width: 300px;
+  border-radius: 50%;
+}
+
+.mars-details {
+  padding: 2rem;
+  max-width: 600px;
+  margin: auto;
+  line-height: 2;
+}
