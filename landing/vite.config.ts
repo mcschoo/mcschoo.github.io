@@ -6,7 +6,7 @@ import { componentTagger } from "lovable-tagger";
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
     // Set base path for GitHub Pages - replace 'REPO_NAME' with your actual repository name
-  base: mode === "production" ? "/mcschoo.github.io/landing/" : "/",
+  base: mode === "production" ? "/landing/" : "/",
   server: {
     host: "::",
     port: 8080,
