@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import { ArrowDown } from "lucide-react";
 
 const HeroSection = () => {
-  const words = ["Web Apps", "Mobile Apps", "AI Solutions"];
+  const words = ["Embedded Systems", "Physical AI", "Agentic Solutions"];
 
   const scrollToProjects = () => {
     const element = document.getElementById("projects");
