@@ -53,6 +53,7 @@ const HeroSection = () => {
           onClick={scrollToProjects}
           className="absolute bottom-10 left-1/2 -translate-x-1/2 text-muted-foreground hover:text-accent transition-colors animate-float"
         >
+          <ArrowDown className="w-6 h-6" />
         </button>
       </div>
     </section>
