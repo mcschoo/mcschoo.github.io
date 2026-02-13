@@ -4,30 +4,31 @@ import RotatingPhotos from "@/components/RotatingPhotos";
 
 const projects = [
   {
-    title: "Project Alpha",
-    description: "Large-scale distributed systems optimization for real-time inference pipelines.",
-    tags: ["Systems", "ML Infrastructure"],
+    title: "Economic Data Valuation Model",
+    description: "Partnering with BMW to build a VSS agent & model introspection tool capable of defining the value of video data to 3rd party vendors.",
+    tags: ["Machine Learning", "Deep Learning", "Financial Modeling", "Computer Vision"],
   },
   {
-    title: "Project Beta",
-    description: "Novel approach to multi-modal representation learning across vision and language.",
-    tags: ["Research", "Deep Learning"],
+    title: "Physical AI VSS Agent using Multi-modal Embeddings",
+    description: "Partnered with NVIDIA to create a VSS agent for physical AI to extend long video understanding by 10.23%.",
+    tags: ["Applied AI", "Agentic AI", "Computer Vision"],
   },
   {
-    title: "Project Gamma",
-    description: "End-to-end platform for automated experiment tracking and model deployment.",
-    tags: ["MLOps", "Platform"],
+    title: "Agentic RAG for Proprietary Documentation",
+    description: "Proposed and implemented an agentic NLP project to & for Aeronix Technologies Group, providing company projected savings of 9200hrs/quarter",
+    tags: ["Applied AI", "Agentic AI", "NLP"],
+  },
+  {
+    title: "Bare-Metal Mesh Radio Firmware Package",
+    description: "Developed a firmware package for a custom PCB made to support long range communications from multi-role aircraft, at a data rate of 37.5 kbps",
+    tags: ["Embedded Systems", "Radio Frequency", "Aerial Interoperability"],
   },
 ];
 
 const publications = [
   {
-    title: "On the Convergence of Adaptive Learning Rate Methods",
-    venue: "NeurIPS 2024",
-  },
-  {
-    title: "Efficient Attention Mechanisms for Long-Context Transformers",
-    venue: "ICML 2024",
+    title: "Eliciting Team Roles for Human-Autonomy Teams in Hazardous Environments",
+    venue: "Under Review",
   },
 ];
 
@@ -39,29 +40,15 @@ const Index = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-16 items-start">
           <div className="flex flex-col justify-center">
             <h1 className="text-5xl md:text-7xl lg:text-8xl leading-[0.9] mb-6">
-              Your
-              <br />
-              Name
-              <br />
-              <span className="text-muted-foreground">Here.</span>
+              Mikey
+              <span className="text-muted-foreground">Schoonmaker</span>
             </h1>
             <p className="text-muted-foreground max-w-md leading-relaxed">
-              Researcher and engineer building intelligent systems at the intersection
-              of machine learning and distributed computing.
+              Hello! My name's Mikey, I'm a researcher and an engineer building intelligent
+              systems for business applications, with the goal of creating a more connected world.
+              I study deep learning and distributed computing.
             </p>
             <div className="mt-8 flex gap-4">
-              <a
-                href="mailto:you@example.com"
-                className="font-mono text-sm border border-foreground px-5 py-2.5 hover:bg-foreground hover:text-primary-foreground transition-colors"
-              >
-                Get in touch
-              </a>
-              <Link
-                to="/writings"
-                className="font-mono text-sm text-muted-foreground px-5 py-2.5 hover:text-foreground transition-colors"
-              >
-                Read my work →
-              </Link>
             </div>
           </div>
           <RotatingPhotos />
@@ -75,7 +62,7 @@ const Index = () => {
             {/* Projects */}
             <div>
               <h2 className="font-mono text-xs uppercase tracking-widest text-muted-foreground mb-8">
-                Selected Projects
+                Recent Projects (12 months)
               </h2>
               <div className="space-y-8">
                 {projects.map((project) => (
