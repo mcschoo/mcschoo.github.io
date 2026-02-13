@@ -41,6 +41,7 @@ const Index = () => {
           <div className="flex flex-col justify-center">
             <h1 className="text-5xl md:text-7xl lg:text-8xl leading-[0.9] mb-6">
               Mikey
+              <br />
               <span className="text-muted-foreground">Schoonmaker</span>
             </h1>
             <p className="text-muted-foreground max-w-md leading-relaxed">
