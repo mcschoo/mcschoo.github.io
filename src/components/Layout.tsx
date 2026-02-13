@@ -14,7 +14,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
       <header className="border-b">
         <nav className="container flex items-center justify-between py-4">
           <Link to="/" className="font-mono text-sm tracking-wider uppercase text-muted-foreground hover:text-foreground transition-colors">
-            Your Name
+            Mikey Schoonmaker
           </Link>
           <ul className="flex gap-6">
             {navItems.map((item) => (
