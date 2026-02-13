@@ -10,10 +10,10 @@ const AboutSection = () => {
             About Me
           </h2>
           <p className="text-muted-foreground text-lg md:text-xl leading-relaxed mb-8">
-          I’m a Computer Science major with a minor in AI at Clemson University, graduating in May 2026. My experience spans network security and
-          information systems at Giorgio Armani, embedded systems and RAG pipelines at Aeronix, and VLM agent development at NVIDIA. 
-          Beyond my strengths in bridging embedded systems and artificial intelligence, I have a passion for connecting with people across industry domains.
-          I’ve sent off two papers for publication, and post grad will be exploring opportunities in Forward Deploy Software Engineering.
+          Michael Schoonmaker is a Computer Science major with a minor in Artificial Intelligence, 
+          and university research in Human-AI Teaming. His background spans embedded systems research in partnership with NASA, 
+          embedded systems engineering at Aeronix, and vision language model research at NVIDIA. His work focuses on bridging 
+          embedded systems, artificial intelligence, and human-computer interaction to deploy robotic and edge-AI applications.
           </p>
           <Button variant="ghost" className="gap-2 text-accent hover:text-accent/80 p-0">
             More About Me

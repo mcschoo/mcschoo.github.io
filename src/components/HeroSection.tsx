@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import { ArrowDown } from "lucide-react";
 
 const HeroSection = () => {
-  const words = ["Web Apps", "Mobile Apps", "AI Solutions"];
+  const words = ["Embedded Systems", "Physical AI", "Agentic Solutions"];
 
   const scrollToProjects = () => {
     const element = document.getElementById("projects");
@@ -33,10 +33,10 @@ const HeroSection = () => {
 
         <div className="animate-slide-up" style={{ animationDelay: "0.2s" }}>
           <p className="text-muted-foreground text-lg md:text-xl max-w-2xl mx-auto mb-4">
-            Full-stack developer (Python, Next.js, React Native).
+            Human-Centered Developer
           </p>
           <p className="text-muted-foreground text-lg md:text-xl max-w-2xl mx-auto mb-8">
-            Currently diving into LLMs and RAG to build smarter products.
+            Using agentic architectures to build physical AI and student-oriented solutions.
           </p>
           <p className="text-accent text-xl md:text-2xl font-semibold mb-12 font-display">
             Code. Learn. Ship. Repeat.
