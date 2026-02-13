@@ -14,8 +14,9 @@ export default {
     },
     extend: {
       fontFamily: {
-        sans: ['Inter', 'sans-serif'],
-        display: ['Space Grotesk', 'sans-serif'],
+        sans: ["'Space Grotesk'", "system-ui", "sans-serif"],
+        display: ["'Space Grotesk'", "system-ui", "sans-serif"],
+        mono: ["'JetBrains Mono'", "monospace"],
       },
       colors: {
         border: "hsl(var(--border))",
@@ -51,7 +52,6 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
-        highlight: "hsl(var(--highlight))",
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
@@ -77,20 +77,15 @@ export default {
           from: { height: "var(--radix-accordion-content-height)" },
           to: { height: "0" },
         },
-        "typing": {
-          from: { width: "0" },
-          to: { width: "100%" },
-        },
-        "blink": {
-          "0%, 100%": { borderColor: "transparent" },
-          "50%": { borderColor: "hsl(var(--accent))" },
+        "fade-in": {
+          from: { opacity: "0", transform: "translateY(8px)" },
+          to: { opacity: "1", transform: "translateY(0)" },
         },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
-        "typing": "typing 3.5s steps(40, end)",
-        "blink": "blink 0.75s step-end infinite",
+        "fade-in": "fade-in 0.5s ease-out forwards",
       },
     },
   },
