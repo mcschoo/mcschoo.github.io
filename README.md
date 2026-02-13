@@ -8,4 +8,4 @@ This project is built with:
     - shadcn-ui
     - Tailwind CSS
 
-Deployed to github pages using the tutorial found here: https://github.com/gitname/react-gh-pages
+Deployed to github pages using the tutorial found here: https://github.com/gitname/react-gh-pages, and github static workflow builder
