@@ -7,3 +7,5 @@ This project is built with:
     - React
     - shadcn-ui
     - Tailwind CSS
+
+Deployed to github pages using the tutorial found here: https://github.com/gitname/react-gh-pages
