@@ -1,0 +1,14 @@
+User-agent: Googlebot
+Allow: None
+
+User-agent: Bingbot
+Allow: None
+
+User-agent: Twitterbot
+Allow: None
+
+User-agent: facebookexternalhit
+Allow: None
+
+User-agent: *
+Allow: None
